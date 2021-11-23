@@ -1,0 +1,56 @@
+{% extends 'theme.html' %}
+
+{% block content %}
+
+<br>
+<h1 style="font-family: 'Montserrat';padding:10px">2D param entry</h1>
+
+
+    <div class="row">
+        <div class="col-lg-4" id="2d_input" style="padding:30px">
+
+            <form id="2d_lattice_form" method="POST" >
+            {% csrf_token %}
+            length a
+            <br />
+                <input type="text" placeholder="length a"  id="len_a1" name="len_a1" /> 
+                <input type="text" placeholder="length a" id="len_a2" name="len_a2" />
+                <br />
+                length b
+                <br />
+                <input type="text" placeholder="length b" id="len_b1" name="len_b1" />
+                <input type="text" placeholder="length b" id="len_b2" name="len_b2" />
+                <br />
+                Angle
+                <br />
+                <input type="text" placeholder="angle" id="angle1" name="angle1" />
+                <input type="text" placeholder="angle" id="angle2" name="angle2" />
+                <br />
+                <br />
+                <input class="btn btn-primary" type="submit" value="Submit" />
+                <input class="btn btn-secondary"  type="button" onclick="clear2D()" value="Clear" />
+            </form>
+            <br>
+          
+
+            
+        </div>
+
+        <div class="col-lg-8">
+            <div class="row2-container">
+                <div class="box orange" style="width: 50%;">
+                <h5 style="font-family: 'Montserrat', sans-serif;font-weight: normal;">Pairwise Distance</h5>
+                <p style="font-family: 'Anton', sans-serif;font-weight: normal;;font-size:30px;color:black" id="2d_dist"></p>
+                <span style="float:right"class="material-icons calc">calculate</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}
+
+
+
+
+

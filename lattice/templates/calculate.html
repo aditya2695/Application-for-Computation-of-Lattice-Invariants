@@ -1,0 +1,137 @@
+
+
+{% extends 'theme.html' %}
+
+
+{% block content %}
+
+
+
+<div class="row">
+
+    <main class="col-md-9 ms-sm-auto col-lg-12 px-md-4">
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2" style="font-family: 'Montserrat';padding:10px">3D lattice entry</h1>
+        <div class="btn-toolbar mb-2 mb-md-0">
+          <div class="btn-group me-2">
+            <button type="button" class="btn btn-sm btn-outline-secondary" onclick="viewChange(1)">Single</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary" onclick="viewChange(2)">Multi</button>
+          </div>
+         
+        </div>
+        
+      </div>
+
+  <!-- main data entry panel -->
+    
+    <div class="row">
+
+        <div class="col-xs-3 col-md-6">
+
+
+            <div id="form_div">
+              <form id="3d_lattice_form1" method="POST" >
+              </div>
+          {% csrf_token %}
+          
+          <div>
+
+              <div id="lat1_3d">
+
+
+                    <br><h5 style="font-family: Montserrat, sans-serif;font-weight: normal;">Lattice 1</h5>
+                
+                    <label for="exampleFormControlInput1">a</label>
+                    <input  class="form-control ip_2d" id="a_1" placeholder="Enter value of a">
+
+                    <label for="exampleFormControlInput1">b</label>
+                    <input  class="form-control ip_2d" id="b_1" placeholder="Enter value of b">
+
+                    <label for="exampleFormControlInput1">c</label>
+                    <input  class="form-control ip_2d" id="c_1" placeholder="Enter value of c">
+
+                    <label for="exampleFormControlInput1">alpha</label>
+                    <input  class="form-control ip_2d" id="alpha_1" placeholder="Enter value of alpha">
+
+                    <label for="exampleFormControlInput1">beta</label>
+                    <input  class="form-control ip_2d" id="beta_1" placeholder="Enter value of beta">
+
+                    <label for="exampleFormControlInput1">gamma</label>
+                    <input  class="form-control ip_2d" id="gamma_1" placeholder="Enter value of beta">
+
+
+              </div>
+
+              <br>
+          <div>
+
+          </div>      
+        </div>  <!-- col 1 end -->
+
+        <div id="lat2_3d">
+          <!-- col 2 start -->
+
+          <div>
+                <h5 style="font-family: Montserrat, sans-serif;font-weight: normal;">Lattice 2</h5>
+                  <label for="exampleFormControlInput1">a</label>
+                  <input  class="form-control ip_2d" id="a_2" placeholder="Enter value of a">
+
+                  <label for="exampleFormControlInput1">b</label>
+                  <input  class="form-control ip_2d" id="b_2" placeholder="Enter value of b">
+
+                  <label for="exampleFormControlInput1">c</label>
+                  <input  class="form-control ip_2d" id="c_2" placeholder="Enter value of b">
+
+                  <label for="exampleFormControlInput1">alpha</label>
+                  <input  class="form-control ip_2d" id="alpha_2" placeholder="Enter value of alpha">
+
+                  <label for="exampleFormControlInput1">beta</label>
+                  <input  class="form-control ip_2d" id="beta_2" placeholder="Enter value of beta">
+
+                  <label for="exampleFormControlInput1">gamma</label>
+                  <input  class="form-control ip_2d" id="gamma_2" placeholder="Enter value of beta">
+          </div>
+        </div>
+<br>
+      <div id="btn_3d">
+        <input class="btn btn-secondary"  type="button" onclick="clear3D(1)" value="Clear" />
+        <input class="btn btn-primary" type="submit" value="Submit" onclick="form3d(1)" />
+      </div>
+
+        </form>
+      
+<br> 
+      
+
+</br>
+       
+
+      </div>
+
+     <div class="col-xs-3 col-md-6">
+
+    
+
+          <div class="row2-container">
+            <div class="box orange" style="width: 50%;">
+              <h5 style="font-family: 'Montserrat', sans-serif;font-weight: normal;">Pairwise Distance</h5>
+              <p style="font-family: 'Anton', sans-serif;font-weight: normal;;font-size:30px;color:black" id="3d_dist"></p>
+              <span style="float:right"class="material-icons calc">calculate</span>
+            </div>
+          </div>
+    
+      </div>
+    </main>
+  </div>
+</div>
+
+
+
+
+
+{% endblock %}
+
+
+
+
+
