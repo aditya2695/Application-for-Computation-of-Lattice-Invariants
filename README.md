@@ -15,22 +15,22 @@ This data is in the form of CIF files.Also, manual data entry have been used.
 This part includes the the basic setup used to run the application.
 
 Libraries used in the application are:
-•	NumPy
-•	Matplotlib
-•	SciPy
-•	Gemmi 
-•	Pymatgen 
+•	NumPy\
+•	Matplotlib\
+•	SciPy\
+•	Gemmi \
+•	Pymatgen\ 
 
-1.	Django installation 
-        pip install Django
-2.	NumPy installation 
-        pip install numpy
-3.	SciPy installation 
-        pip install scipy
-4.	Gemmi installation 
-        pip install gemmi
-5.	Pymatgen installation 
-	    pip install pymatgen
+1.	Django installation\ 
+        pip install Django\
+2.	NumPy installation \
+        pip install numpy\
+3.	SciPy installation\ 
+        pip install scipy\
+4.	Gemmi installation\ 
+        pip install gemmi\
+5.	Pymatgen installation\ 
+	    pip install pymatgen\
 6. Matplotlib installation
         pip install matplotlib
 
