@@ -49,6 +49,9 @@ Libraries used in the application are:
 ![cluster](images/cluster.png)
 
 <img src="images/cluster_screen.png">
+<p> Figure 2: Various Lattice types of CaO clustered heirarchically  </p>
+
 <img src="images/cluster2.png">
+<p> Figure 2: Various Lattice types of CaO clustered heirarchically  </p>
 
 
