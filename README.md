@@ -3,21 +3,7 @@
 
 ## Problem
 
-Crystal lattice similarity is useful and it finds applications in various domains like material science for crystal structure prediction, also for drug discovery in the pharmaceutical industry. The similarity in lattices may also be a measure of the similarity of physical properties. In this project, the similarity between lattices serves as the key concept.  
- 
-This project aims to develop a web application that can be used to compare 2-dimensional or 3-dimensional lattices by providing lattice parameters as a set of cell lengths and angles thereby providing a platform to calculate the isometry invariants and visualize the similarity distance between lattices. This project serves as a software platform for lattice similarity based on code written by a group of colleagues who worked to calculate isometry invariant distance between lattice pairs in this project. 
- 
-Moreover, this project also aims to provide an interface to upload crystallographic datasets like CIF files and compare the uploaded files and visualize the invariant distance. The application allows users to upload data files and perform hierarchical clustering between the lattices from the uploaded files. The resulting clustering output was visualized graphically in the form of a dendrogram. This dendrogram can be used to assess the similarity between lattices. 
- 
-The whole project involved developing a web application using the Python Django framework which will act as a platform to make it easy to compare lattices by allowing users to input lattice data and obtain the pairwise invariant distance between any lattices and employing unsupervised machine learning techniques to cluster the lattices.   
-Crystal lattice similarity is useful and it finds applications in various domains like material science for crystal structure prediction, also for drug discovery in the pharmaceutical industry. The similarity in lattices may also be a measure of the similarity of physical properties. In this project, the similarity between lattices serves as the key concept.  
- 
-This project aims to develop a web application that can be used to compare 2-dimensional or 3-dimensional lattices by providing lattice parameters as a set of cell lengths and angles thereby providing a platform to calculate the isometry invariants and visualize the similarity distance between lattices. This project serves as a software platform for lattice similarity based on code written by a group of colleagues who worked to calculate isometry invariant distance between lattice pairs in this project. 
- 
-Moreover, this project also aims to provide an interface to upload crystallographic datasets like CIF files and compare the uploaded files and visualize the invariant distance. The application allows users to upload data files and perform hierarchical clustering between the lattices from the uploaded files. The resulting clustering output was visualized graphically in the form of a dendrogram. This dendrogram can be used to assess the similarity between lattices. 
- 
-The whole project involved developing a web application using the Python Django framework which will act as a platform to make it easy to compare lattices by allowing users to input lattice data and obtain the pairwise invariant distance between any lattices and employing unsupervised machine learning techniques to cluster the lattices.   
-
+This project aims to develop an application that can be used to input either a pair of 2-dimensional or 3-dimensional lattices as a set of cell lengths and angles thereby providing a platform to calculate the isometry invariants and obtain the similarity between lattices based on code written by a group of colleagues to calculate isometry invariant in this project. The main inspiration for this project is the research paper by Conway & Sloane [2] where they explain the computation of isometric invariants for low-dimensional lattices. The overall idea of this project is that if there exists an input and output lattice that does not change after transformations like a change of basis then there exists an isometry invariant. This project is based on the area of research of few colleagues in this project namely Dr Matt Bright and Dr Vitaliy Kurlin. This project has utilized code written by Dr Matt Bright to calculate the pairwise invariant distance between two lattices. 
 
 ![design](images/architecture.png)
 
