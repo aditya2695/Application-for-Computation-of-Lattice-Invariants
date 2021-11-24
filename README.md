@@ -1,4 +1,6 @@
 
+# Application for Computation of Lattice Invariants
+
 ## Problem
 
 This project aims to develop a web application that can be used to compare 2-dimensional or 3-dimensional lattices by providing lattice parameters as a set of cell lengths and angles thereby providing a platform to calculate the isometry invariants and visualize the similarity distance between lattices. 
@@ -19,7 +21,7 @@ Libraries used in the application are:
 •	Matplotlib\
 •	SciPy\
 •	Gemmi \
-•	Pymatgen\ 
+•	Pymatgen
 
 1.	Django installation\ 
         pip install Django\
