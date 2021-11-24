@@ -48,6 +48,6 @@ Libraries used in the application are:
 
 ![cluster](images/cluster.png)
 
-<img src="images/cluster.png>
+<img src="images/cluster.png">
 
 
