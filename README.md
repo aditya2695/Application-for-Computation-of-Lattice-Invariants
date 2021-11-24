@@ -46,8 +46,8 @@ Libraries used in the application are:
 4. The application runs by default on port 8000.
 5. The URL http://127.0.0.1:8000/lattice/home takes you to the   application home screen.
 
-<div>
-<img src="https://drive.google.com/file/d/1Iy8Ry0D8AYYuh4kYjlxFcQRz6nl22BuF/view?usp=sharing">
-</div>
+![cluster](images/cluster.png)
+
+<img src="images/cluster.png>
 
 
