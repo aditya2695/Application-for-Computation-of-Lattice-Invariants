@@ -7,6 +7,8 @@ This project aims to develop a web application that can be used to compare 2-dim
 
 Moreover, this project also aims to provide an interface to upload crystallographic datasets like CIF files and compare the uploaded files and visualize the invariant distance. The application allows users to upload data files and perform hierarchical clustering between the lattices from the uploaded files. The resulting clustering output was visualized graphically in the form of a dendrogram. This dendrogram can be used to assess the similarity between lattices. 
 
+![design](images/architecture.png)
+
 ## DataSet
 In this project, we have used Crystallographic data from CCDC database and Materials project website. 
 
