@@ -24,8 +24,8 @@ Libraries used in the application are:
 •	Pymatgen
 
 <ul>
-        <li style="font-weight:bold"> 1.Django installation
-        <li>    pip install Django
+        <li > 1.Django installation
+        <li>   pip install Django
         <li>2.	NumPy installation 
         <li>    pip install numpy
         <li>3.	SciPy installation
@@ -45,5 +45,9 @@ Libraries used in the application are:
 3. Execute python manage.py runserver.
 4. The application runs by default on port 8000.
 5. The URL http://127.0.0.1:8000/lattice/home takes you to the   application home screen.
+
+<div>
+<img src="https://drive.google.com/file/d/1Iy8Ry0D8AYYuh4kYjlxFcQRz6nl22BuF/view?usp=sharing">
+</div>
 
 
