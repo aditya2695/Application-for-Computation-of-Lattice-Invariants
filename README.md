@@ -52,7 +52,13 @@ Libraries used in the application are:
 <p style="align:center"> Figure 2: Various Lattice types of CaO clustered heirarchically  </p>
 
 <img src="images/cluster2.png">
-<p> Figure 2: Various Lattice types of CaO clustered heirarchically  </p>
+<p> Figure 3: Various Lattice types of CaO clustered heirarchically  </p>
+
+<img src="images/mgo.png">
+<p> Figure 3: Scatter plot of the Distance comparison of the different MgO crystal systems </p>
+
+<img src="images/cao.png">
+<p> Figure 3: Scatter plot of the Distance comparison of the different CaO crystal systems </p>
 
 
 ## References
