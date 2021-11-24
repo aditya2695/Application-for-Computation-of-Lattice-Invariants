@@ -1,7 +1,3 @@
-# ADITYA ANANDARAJAN
-# 201524131
-
-# MSc Project : Application for Computation of Lattice Invariants
 
 ## Problem
 
