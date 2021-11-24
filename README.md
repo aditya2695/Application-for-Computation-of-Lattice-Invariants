@@ -24,18 +24,18 @@ Libraries used in the application are:
 •	Pymatgen
 
 <ul>
-<li> 1.Django installation\ 
-    <li>    pip install Django\
-<li>2.	NumPy installation \
-    <li>    pip install numpy\
-<li>3.	SciPy installation\ 
-    <li>    pip install scipy\
-<li>4.	Gemmi installation\ 
-    <li>    pip install gemmi\
-<li>5.	Pymatgen installation\ 
-<li>	    pip install pymatgen\
-<li>6. Matplotlib installation
-    <li>    pip install matplotlib
+        <li style="font-weight:bold"> 1.Django installation
+        <li>    pip install Django
+        <li>2.	NumPy installation 
+        <li>    pip install numpy
+        <li>3.	SciPy installation
+        <li>    pip install scipy
+        <li>4.	Gemmi installation
+        <li>    pip install gemmi
+        <li>5.	Pymatgen installation
+        <li>	    pip install pymatgen
+        <li>6. Matplotlib installation
+        <li>    pip install matplotlib
 </ul>
 
 ## Testing
