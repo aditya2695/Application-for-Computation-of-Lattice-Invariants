@@ -1,7 +1,7 @@
 
 # Application for Computation of Lattice Invariants
 
-## Problem
+## About
 
 This project aims to develop an application that can be used to input either a pair of 2-dimensional or 3-dimensional lattices as a set of cell lengths and angles thereby providing a platform to calculate the isometry invariants and obtain the similarity between lattices based on code written by a group of colleagues to calculate isometry invariant in this project. The main inspiration for this project is the research paper by Conway & Sloane [2] where they explain the computation of isometric invariants for low-dimensional lattices. The overall idea of this project is that if there exists an input and output lattice that does not change after transformations like a change of basis then there exists an isometry invariant. This project is based on the area of research of few colleagues in this project namely Dr Matt Bright and Dr Vitaliy Kurlin. This project has utilized code written by Dr Matt Bright to calculate the pairwise invariant distance between two lattices. 
 
